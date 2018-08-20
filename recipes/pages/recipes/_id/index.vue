@@ -4,8 +4,7 @@
         <div>
             <img src="" alt="">
         </div>
-        <p>The recipe description.</p>
-        <p>{{ $route.params.id }}</p>
+        <p>The recipe description.</p>        
     </section>
 </template>
 
