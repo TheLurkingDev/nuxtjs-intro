@@ -1,8 +1,20 @@
 <template>
   <div>
+    <Header />
     <nuxt/>
   </div>
 </template>
+
+<script>
+import Header from '@/components/Header';
+
+export default {
+  components: {
+    Header
+  }
+}
+</script>
+
 
 <style>
 html
@@ -16,11 +28,7 @@ html
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-*, *:before, *:after
-{
-  box-sizing: border-box;
-  margin: 0;
-}
+
 .button--green
 {
   display: inline-block;
